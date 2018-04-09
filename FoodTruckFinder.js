@@ -61,7 +61,7 @@ function getDataFromCache(key){
 }
 
 function getDataFromRemote(key){
-    console.log('getDataFromRemote... : ');
+    console.log('getDataFromRemote... ');
     var currentPageNum = parseInt(key.split(':')[1]);
     const curDate = new Date();
     const curDayofWeek = curDate.getDay();
